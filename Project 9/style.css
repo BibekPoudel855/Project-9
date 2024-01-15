@@ -20,6 +20,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: white;
 }
 li {
   list-style-type: none;
@@ -47,7 +48,7 @@ li {
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: red;
+  background-color: rgb(133, 132, 132);
 }
 
 /* code */
@@ -82,13 +83,13 @@ li {
 .nav-right select {
   color: white;
   border-radius: 5px;
-  background-color: red;
+  background-color: #e50914;
   padding: 10px 20px;
   font-size: 15px;
   font-weight: 500;
 }
 .nav-right button {
-  border: 1px solid red;
+  border: 1px solid #e50914;
 }
 .nav-right select {
   background-color: transparent;
@@ -128,10 +129,11 @@ li {
 .hero-section-content button {
   padding: 9px 15px;
   border: none;
-  background-color: red;
+  background-color: #e50914;
   font-size: 18px;
   font-weight: 400;
   border-radius: 4px;
+  color: white;
 }
 
 /* firts sectionnn */
@@ -225,10 +227,10 @@ li {
   font-size: 48px;
   text-align: center;
 }
-.faq-boxes{
+.faq-boxes {
   cursor: pointer;
   height: 80px;
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -237,19 +239,68 @@ li {
   transition: all 60ms;
   transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
 }
-.faq-boxes:hover{
+.faq-boxes:hover {
   background-color: #414141;
 }
-.faq-boxes i{
+.faq-boxes i {
   font-size: 24px;
 }
-.faq-boxes span{
-  font-size: 24px;
+.faq-boxes span {
+  font-size: 20px;
 }
-
-
-
-
-
-
+/* last email section  */
+.last-email-section {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.last-email-section h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.last-email-section span {
+  display: flex;
+}
+.last-email-section input {
+  padding: 8px 45px 8px 15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 200;
+  margin: 0 10px 0 0;
+}
+.last-email-section button {
+  padding: 9px 15px;
+  border: none;
+  background-color: #e50914;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 4px;
+  color: white;
+}
 /* footer section */
+.footer>p{
+  margin-bottom: 20px;
+  color: #B3B3B3;
+  text-decoration: underline;
+}
+.footer{
+  padding: 50px 0 0 0;
+}
+.footer-inner-cont{
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer-flex{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.footer-flex a{
+  color: #B3B3B3;
+  text-decoration: underline;
+}
